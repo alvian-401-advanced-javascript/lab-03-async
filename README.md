@@ -1,49 +1,25 @@
-# LAB - 01 
+# LAB - 03
 
-## Project Name
+## Promises/Callbacks/Async Functions
 
 ### Author: Alvian Joseph
 
 ### Links and Resources
-* [submission PR](https://github.com/alvian-401-advanced-javascript/lab-01)
+* [submission PR](https://github.com/alvian-401-advanced-javascript/lab-03-async)
 * [![Build Status](https://www.travis-ci.com/alvian-401-advanced-javascript/lab-01.svg?branch=master)](https://www.travis-ci.com/alvian-401-advanced-javascript/lab-01)
-* [front-end](https://alvian-lab-01.herokuapp.com/)
+
 
 
 ### Modules
 #### `index.js`
-Sets up a node http server, pulls in the pol module
+imports reader.js, reader-promise.js and reader-async.js
 
-### 'arithmetic.js'
-arithmetic module
+#### `reader.js`
+#### `reader-promise.js`
+#### `reader-async.js`
+Each reader module will read and return the contents of 3 files,
+otherwise fails with aggresion.
 
-Exports one function called `isValidInput()`
-* if param is an array of numbers, returns true
-* otherwise, returns true
-
-Exports four math operator functions
-* arithmetic.add
-* arithmetic.subtract
-* arithmetic.divide
-* arithmetic.multiply 
-Each function performs the designated operation on an array of numbers
-
-### 'greet.js'
-greet module
-
-exports one function called `sayHello()`
-it takes in a string and returns a message
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - 3000
 
 #### Running the app
 * `npm start`
@@ -55,10 +31,3 @@ Usage Notes or examples
 * How do you run tests?
   * `npm test`
   * `npm run lint`
-
-* What assertions were made?
-  * `sayHello()` returns null if param is not a string
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events

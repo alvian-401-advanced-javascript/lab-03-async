@@ -1,8 +1,8 @@
 'use strict';
 
-// const fileReader = require('./lib/reader.js');
-// const fileReader = require('./lib/reader-promise.js');
-const fileReader = require('./lib/reader-async.js');
+const fileReader = require('./lib/reader.js');
+const fileReaderPromise = require('./lib/reader-promise.js');
+const fileReaderAsync = require('./lib/reader-async.js');
 
 
 // Obtain and assert input
@@ -13,6 +13,16 @@ if( ! (files instanceof Array && files.length) ) {
 }
 
 fileReader(files, (err,data) => {
+  if ( err ) { throw err; }
+  console.log('From Callback:', data);
+});
+
+fileReaderPromise(files, (err,data) => {
+  if ( err ) { throw err; }
+  console.log('From Callback:', data);
+});
+
+fileReaderAsync(files, (err,data) => {
   if ( err ) { throw err; }
   console.log('From Callback:', data);
 });
