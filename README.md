@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/alvian-401-advanced-javascript/lab-03-async)
-* [![Build Status](https://www.travis-ci.com/alvian-401-advanced-javascript/lab-01.svg?branch=master)](https://www.travis-ci.com/alvian-401-advanced-javascript/lab-01)
+* [![Build Status](https://www.travis-ci.com/alvian-401-advanced-javascript/lab-03-async.svg?branch=master)](https://www.travis-ci.com/alvian-401-advanced-javascript/lab-03-async)
 
 
 
